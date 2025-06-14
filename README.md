@@ -24,7 +24,7 @@ TheKoiiBot is a fully automated Python bot that posts informative, unique tweets
 ### 2. Clone the Repository
 ```
 git clone https://github.com/TheKoiiBot/TheKoiiBot
-cd koiibot
+cd TheKoiiBot
 ```
 
 ### 3. Install Python Dependencies
