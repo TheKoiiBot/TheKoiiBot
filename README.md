@@ -23,7 +23,7 @@ TheKoiiBot is a fully automated Python bot that posts informative, unique tweets
 
 ### 2. Clone the Repository
 ```
-git clone https://github.com/yourusername/koiibot.git
+git clone https://github.com/TheKoiiBot/TheKoiiBot
 cd koiibot
 ```
 
