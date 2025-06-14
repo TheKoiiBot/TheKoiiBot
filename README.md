@@ -19,6 +19,7 @@ TheKoiiBot is a fully automated Python bot that posts informative, unique tweets
 
 ### 1. Install Python 3.12
 - Download and install from: https://www.python.org/downloads/
+- ⚠️ Make sure to check **"Add Python to PATH"** during installation.
 
 ### 2. Clone the Repository
 ```
@@ -45,16 +46,13 @@ TWITTER_PASSWORD=your_twitter_password
 HEADLESS=true
 ```
 
-### 6. (Optional) KOII Wallet
-If you want to interact with KOII network features, place your KOII wallet file in the appropriate folder (see code comments for details).
-
-### 7. Start the Bot
+### 6. Start the Bot
 - **Via Python:**
   ```
   python main.py
   ```
 - **Or on Windows:**
-  Double-click `start_koiibot.cmd` (if provided)
+  Double-click `start_koiibot.cmd`
 
 ---
 
