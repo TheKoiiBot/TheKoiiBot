@@ -22,12 +22,13 @@ class GeminiClient:
         for attempt in range(3):
             try:
                 prompt = (
-                    "Write a helpful, unique, and self-contained tweet in English about the KOII ecosystem. "
-                    "The tweet must mention $KOII somewhere in the text. "
-                    "Do NOT include any links, URLs, or bracketed/placeholder text. "
-                    "Only provide concise, informative, and complete information about KOII. "
-                    "Never repeat phrasing or content. Each tweet must start differently than previous ones. "
-                    "Use varied sentence structures and wording. Max 280 characters."
+    			"Write a unique and self-contained tweet in English about the KOII ecosystem, focusing on features like decentralized tasks, creator rewards, data ownership, or the role of node operators. "
+    			"The tweet must explicitly mention $KOII in the text. "
+    			"Do not include any links, URLs, placeholder text, or references to other tweets. "
+    			"Do not mention NFTs, metaverse, or unrelated technologies. "
+    			"Each tweet must be factually accurate and standalone. "
+    			"Vary sentence structure and starting words to avoid repetition across outputs. "
+    			"Maximum length is 280 characters."
                 )
                 response = self.model.generate_content(prompt)
                 tweet = response.text.strip() if response.text else ''
